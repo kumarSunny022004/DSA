@@ -9,7 +9,7 @@ public class Main {
         int n=sc.nextInt();
         int f= 0;
         int s= 1;
-        //for loop 
+        //for loop
         for(int i=0; i<n; i++){
             if(i>1){
                 int next = s +f;
@@ -20,6 +20,21 @@ public class Main {
             else{
                 System.out.print(i+" ");
             }
+        }
+        System.out.println();
+        //while loops
+        int i=0;
+        while(i<n+1){
+            if(i>1){
+                int next = s +f;
+                System.out.print(next+" ");
+                f= s;
+                s= next;
+            }
+            else{
+                System.out.print(i+" ");
+            }
+            i++;
         }
 
     }
