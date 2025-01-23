@@ -16,7 +16,13 @@ public class Main {
                 arr[i][j]=sc.nextInt();
             }
         }
-        Arrays.toString(arr[n]);
+//        Now to print the the matrix
+        for(int i=0; i<n; i++){
+            for(int j=0; i<m; i++){
+                System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
     public static void main(String[] args) {
 
