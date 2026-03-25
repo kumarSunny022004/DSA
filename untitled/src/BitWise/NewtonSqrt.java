@@ -13,6 +13,7 @@ public class NewtonSqrt {
                 break;
             }
             x = root;
+
         }
         return  root;
     }

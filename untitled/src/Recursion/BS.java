@@ -1,6 +1,6 @@
 package Recursion;
 
-public class BS {
+public class  BS   {
     public static void main(String[] args) {
         int[] arr = {7,8,9,10,55,33,44,27};
         int target = 33;

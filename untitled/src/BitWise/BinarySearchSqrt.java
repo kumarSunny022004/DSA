@@ -5,6 +5,7 @@ public class BinarySearchSqrt {
         int n = 40;
         int p = 3;
         System.out.printf("%.3f",sqrt(n,p));
+
     }
     static double sqrt(int n, int p){
         double root = 0.0;

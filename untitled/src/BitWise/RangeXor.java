@@ -1,12 +1,16 @@
 package BitWise;
 
-public class Xor {
+public class RangeXor {
     public static void main(String[] args) {
+//        range xor for a ,b  = xor(b)^xor(a-1)
         int a = 3;
-        int b= 6;
-        int ans = xor(b)^xor(a-1);
+        int b = 9;
+
+        int ans =  xor(b)^xor(a-1);
+
         System.out.println(ans);
     }
+//    this will give xor from 0 to a
     static int xor(int a){
         if(a%4==0){
             return a;
@@ -18,5 +22,6 @@ public class Xor {
             return a+1;
         }
         return 0;
+
     }
 }
